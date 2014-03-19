@@ -116,6 +116,7 @@ prose:
         field:
           element: "select"
           label: "Select type"
+          help: "What kind of post is it?"
           options:
             - name: "Photo"
               value: "photo"
@@ -127,6 +128,7 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           alterable: "true"
+          help: "You can create a new tag below."
           options:
             - name: "Sample post"
               value: "sample post"
