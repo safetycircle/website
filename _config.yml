@@ -113,14 +113,14 @@ prose:
             - name: "General"
               value: "general"
       - name: "category"
-	field:
-	  element: "select"
-	  label: "What kind of post is it?"
-	  options:
-	    - name: "Photo"
-	      value: "photo"
-	    - name: "Video"
-	      value: "video"
+      	field:
+      	  element: "select"
+      	  label: "What kind of post is it?"
+      	  options:
+      	    - name: "Photo"
+      	      value: "photo"
+      	    - name: "Video"
+      	      value: "video"
       - name: "tags"
         field:
           element: "multiselect"
