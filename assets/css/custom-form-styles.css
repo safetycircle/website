@@ -1,0 +1,62 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Custom Wufoo Styles
+ Author : Rami Yahya
+ URL : http://www.ramiyahya.com
+
+ Last Updated : 19/03/2014
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+textarea.form-control, input.form-control  {
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #555555;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	box-sizing: border-box;
+}
+
+input.tel {
+	width: 80%;
+}
+
+input.btn-primary {
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	color: #ffffff;
+	background-color: #70d220;
+	border-color: #64bc1d;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+form li.buttons input {
+	font-size: 18px;
+}
