@@ -8,7 +8,9 @@
 
 - - - - - - - - - - - - - - - - - - - - - */
 
-textarea.textarea, input.text {
+.wufoo .info{display:none}
+
+.wufoo textarea.textarea, input.text {
 	width: 100%;
 	padding: 6px 12px;
 	font-size: 14px;
