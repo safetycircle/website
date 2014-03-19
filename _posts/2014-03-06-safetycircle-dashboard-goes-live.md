@@ -1,15 +1,21 @@
 ---
 layout: post
 title: "SafetyCircle Dashboard goes live!"
-description: "Track your WHS goals with ease"
+description: Track your WHS goals with ease
 type: photo
 image: 
-  feature: picture-11.jpg
-category: news
-tags: [dashboard, safetycircle]
+  feature: "picture-11.jpg"
+category: 
+  - news
+  - photos
+tags: 
+  - dashboard
+  - safetycircle
 comments: true
 share: true
+published: false
 ---
+
 After years of working with Excel spreadsheets, Word tables and Powerpoint slides SafetyCircle has taken a quantum leap onto “the cloud”.
 
 We found that many of our clients needed assistance to track and report on their WHS Success Indicators – both the traditional Lagging Indicators like LTI’s, Claims, LTIFR, LTISR and so on; as well as Positive Performance Indicators like Hazards Reported, Outstanding Corrective Actions, WHS Inspections performed etc. 
