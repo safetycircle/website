@@ -112,6 +112,15 @@ prose:
               value: "videos"
             - name: "General"
               value: "general"
+      - name: "type"
+        field:
+          element: "select"
+          label: "Select type"
+          options:
+            - name: "Photo"
+              value: "photo"
+            - name: "Video"
+              value: "video"
       - name: "tags"
         field:
           element: "multiselect"
