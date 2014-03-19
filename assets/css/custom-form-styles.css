@@ -8,9 +8,9 @@
 
 - - - - - - - - - - - - - - - - - - - - - */
 
-.wufoo .info{display:none}
 
-.wufoo textarea.textarea, input.text {
+
+.wufoo textarea.textarea, .wufoo input.text {
 	width: 100%;
 	padding: 6px 12px;
 	font-size: 14px;
@@ -23,13 +23,11 @@
 	border-radius: 4px;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 	box-sizing: border-box;
 }
 
-input[type=tel] {
-	width: 80%;
+a[href="https://master.wufoo.com/forms/m7p0x3/def/field1=safetycircle.wufoo.com/forms/wed-like-to-hear-from-you/"] {
+	display: none;
 }
 
 input.btTxt  {
@@ -61,4 +59,8 @@ input.btTxt  {
 
 form li.buttons input {
 	font-size: 18px;
+}
+
+.wufoo li {
+ width: 100%;
 }
