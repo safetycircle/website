@@ -103,7 +103,7 @@ prose:
           value: "post"
       - name: "title"
         field:
-          element: "text"
+          element: "textarea"
           label: "Title"
       - name: "category"
         field:
