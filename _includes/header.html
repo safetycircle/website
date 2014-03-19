@@ -1,0 +1,41 @@
+
+
+<header>
+    <div id="main-navigation">
+      <div class="container">
+        <div class="row">
+    
+          <div class="col-xs-12 col-md-5 col-md-push-7">
+            <div id="logo">
+              <a class='current' href="{{site.baseurl}}/index.html"></a>
+              <h1 class="navbar-right text-hide">SafetyCircle<span class="registered">&reg;</span></h1>
+            </div>
+          </div> 
+    
+          <div class="clearfix visible-xs visible-sm"></div>
+    
+          <div class="col-xs-12 col-md-7 col-md-pull-5">  
+              <div class="nav ">
+                <ul class="navbar-sc menu">
+                  {% if page.active == "blog" %}
+                      <li><a href="#"  class="current">Blog</a></li>
+                  {% else %}
+                      <li><a href="{{site.baseurl}}/blog/">Blog</a></li>
+                  {% endif %}
+                  {% if page.active == "videos-and-webinars" %}
+                      <li><a href="#"  class="current">Videos & Webinars</a></li>
+                  {% else %}
+                      <li><a href="{{site.baseurl}}/videos-and-webinars.html">Videos & Webinars</a></li>
+                  {% endif %}
+                  {% if page.active == "dashboard" %}
+                      <li><a href="#"  class="current">Dashboard</a></li>
+                  {% else %}
+                      <li><a href="http://safetycircle.azurewebsites.net/">Dashboard</a></li>
+                  {% endif %}
+                </ul>
+              </div>
+          </div> 
+    
+        </div>
+    </div>
+</header>

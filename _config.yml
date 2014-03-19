@@ -1,0 +1,143 @@
+title:            SafetyCircle
+description:      "Think inside the circle"
+logo:             omikron.png
+disqus_shortname: safetycircle
+# Assign a default image for your site's header and footer
+default_bg:       default_bg.jpg
+search:           false
+share:            true
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime:         true
+# Turn on or off the fin animations in the header and footer
+animated_fins:	  true
+# Specify the fin color in RGB value
+fin_color:        "255,255,255"
+# Change url to your domain. Leave localhost server or blank when working locally.
+url:              
+baseurl:          
+# Owner/author information
+owner:
+  name:           Michael Roberts
+  avatar:         michael-roberts.jpg
+  email:          michaelroberts@ipmsafety.com.au
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    "Michael is the co-Creator of SafetyCircle and a founding Director of the IPM Safety team. He is a qualified Occupational Health Physiotherapist working as a WHS Consultant with over 22 years’ experience in Work Health and Safety."
+  # Social networking links used in footer. Update and remove as you like.
+  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
+  twitter:        michael-roberts
+  facebook:       michael-roberts
+  github:         michael-roberts
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  hmfaysalsocial: michael-roberts
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    https://plus.google.com/u/0/102602916593522619858
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-39365944-7
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: <i class="icon-book"></i> Documentation
+    url: /documentation
+  - title: Categories
+    url: /categories
+  - title: Tags
+    url: /tags
+  - title: Faysal who?
+    url: /hossain-mohd-faysal
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Australia/Tasmania
+future:      true
+pygments:    true
+markdown:    kramdown
+paginate:    4
+paginate_path: "blog/page:num"
+
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "sample posts"]
+
+
+#Prose.io config
+# prose.io settings
+# https://github.com/prose/prose/wiki/Prose-Configuration
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://ramiyahya.github.io/safetycircle/'
+  media: 'images'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Select category"
+          options:
+            - name: "Photos"
+              value: "photos"
+            - name: "Videos"
+              value: "videos"
+            - name: "General"
+              value: "general"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Sample post"
+              value: "sample post"
+            - name: "Images"
+              value: "images"
+            - name: "Videos"
+              value: "videos"
+            - name: "General"
+              value: "general"
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Enable comments"
+          value: "true"
+      - name: "share"
+        field:
+          element: "checkbox"
+          label: "Enable sharing"
+          value: "true"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          value: "true"

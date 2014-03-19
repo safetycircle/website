@@ -1,0 +1,179 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{site.baseurl}}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="{{site.baseurl}}/assets/js/blog-scripts.min.js"></script>
+    {% if site.animated_fins %}<script type="text/javascript" src="{{site.baseurl}}/assets/js/waypoints.min.js"></script>{% endif %}
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/blog-script.js"></script>
+
+{% if site.search %}
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : '{{site.baseurl}}/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+{% endif %}
+{% if site.google_analytics %}
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+{% endif %}
+{% if page.comments %}{% include disqus_comments.html %}{% endif %}
+
+
+{% if page.fitvids %}
+        <script src='{{site.baseurl}}/assets/js/jquery.fitvids.js'></script>
+        <script>
+          $(document).ready(function(){
+            // Target your .container, .wrapper, .post, etc.
+            $(".fitvids").fitVids();
+          });
+        </script>
+{% endif %}
+    <script src='{{site.baseurl}}/assets/js/bootstrap.min.js'></script>
+    <script src='{{site.baseurl}}/assets/js/main.js'></script>
+
+{% if page.vidtrigger %}
+        <script>
+
+            $('a.vid-trigger').click(function(e){
+              e.preventDefault();
+              var URL = $(this).attr('href');
+              var htm = '<iframe width="560" height="360" src="https://www.youtube.com/embed/' + URL + '?vq=hd720&modestbranding=1&rel=0&showinfo=0&autohide=1" style="padding:0px;background:#1a1a1a;border-radius:3px;-moz-box-shadow:5px 5px 8px rgba(0,0,0,0.4);-webkit-box-shadow:5px 5px 8px rgba(0,0,0,0.4);box-shadow:5px 5px 8px rgba(0,0,0,0.4);" frameborder="0"></iframe>';
+
+                  $('.fitvids').html(htm);
+              $(".fitvids").fitVids();
+              $('body,html').animate({
+                scrollTop: $("#featured").position().top
+              }, 300);
+
+              return false;
+            });
+
+        </script>
+{% endif %}
+
+
+{% if page.royalslideralt %}
+<script src='{{site.baseurl}}/assets/js/jquery.royalslider.min.js'></script>
+<script>
+    jQuery(document).ready(function($) {
+      $(".royalSliderAlt").royalSlider({
+          // options go here
+          // as an example, enable keyboard arrows nav
+          keyboardNavEnabled: true,
+          autoHeight: true,
+          controlNavigation: 'none',
+          arrowsNav: true,
+          arrowsNavAutoHide: false,
+          transitionType: 'fade',
+          autoPlay: {
+            // autoplay options go gere
+            enabled: true,
+            delay: 3000,
+
+          }
+
+      });
+
+  });
+</script>
+
+{% endif %}
+
+{% if page.royalslider %}
+        <script src='{{site.baseurl}}/assets/js/jquery.royalslider.min.js'></script>
+        <script>
+          jQuery(document).ready(function($) {
+              $(".royalSlider").royalSlider({
+                  // options go here
+                  // as an example, enable keyboard arrows nav
+                  keyboardNavEnabled: true,
+                  autoHeight: true,
+                  controlNavigation: 'none',
+                  arrowsNav: false,
+                  deeplinking: {
+                      // deep linking options go gere
+                      enabled: true,
+                      change: true,
+                      prefix: 'slider-'
+                  },
+                  autoPlay: {
+                    // autoplay options go gere
+                    enabled: true,
+                    delay: 3000,
+                  }
+              });
+
+              var slider = $(".royalSlider").data('royalSlider');
+
+              slider.ev.on('rsBeforeAnimStart', function() {
+                  // triggers after slide change
+                  $(".tabs .current").removeClass('current')
+                  $(".tabs a").eq(slider.currSlideId).addClass('current')
+              });
+
+          });
+        </script>
+{% endif %}
+
+{% if page.magnific %}
+        <script src='{{site.baseurl}}/assets/js/plugins/magnific.min.js'></script>
+        <script>
+          jQuery(document).ready(function($) {
+              $('.cultural-change').magnificPopup({ 
+                type: 'image',
+                // other options
+                closeOnContentClick: true,
+                removalDelay: 200,
+                mainClass: 'mfp-fade',
+              });
+              $('.safetycircle-start').magnificPopup({ 
+                type: 'image',
+                // other options
+                closeOnContentClick: true,
+                removalDelay: 200,
+                mainClass: 'mfp-fade',
+              });
+          });
+        </script>
+{% endif %}

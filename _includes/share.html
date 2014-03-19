@@ -1,0 +1,31 @@
+<div class="post-share text-center">
+    <p class="light small remove-margin">
+        Share this post
+    </p>
+    <ul class="social-mini">
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=&quot;{{ page.title }}&quot;%20{{site.baseurl}}{{ page.url }}%20via%20&#64;{{ site.owner.twitter }}"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
+                <i class="icon-twitter"></i>
+            </a>
+        </li>
+        <!-- <li>
+            <a  href="https://www.facebook.com/sharer/sharer.php?u={{site.baseurl}}{{ page.url }}"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
+                <i class="icon-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://plus.google.com/share?url={{site.baseurl}}{{ page.url }}"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
+                <i class="icon-google-plus"></i>
+            </a>
+        </li> -->
+        <li class="remove-margin baseline">
+            <script src="//platform.linkedin.com/in.js" type="text/javascript">
+            lang: en_US
+            </script>
+            <script type="IN/Share" data-url="{{site.baseurl}}{{ page.url }}" data-counter="right"></script>
+        </li>
+    </ul>
+</div>

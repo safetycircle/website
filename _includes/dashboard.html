@@ -1,0 +1,134 @@
+<div class="main">
+	<div id="dash-header">
+	<div class="container">
+		<nav class="navbar navbar-inverse" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Company Name <small>SafetyCircle Data Visualization</small></a>
+			</div>
+		
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right navbar">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li class="text-right"><a href="../admin.html">Administration</a></li>
+							<li class="text-right"><a href="../logout.html">Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+	</div>
+</div>
+
+	<div id="dashboard">
+		<div class="container wrapper">
+			<div class="row chart-header">
+				<div class="col-sm-7">
+					<h2>{{ page.title }}</h2>
+				</div>
+				<div class="col-sm-5">
+					<ul class="actions-nav pull-right">
+						<li><a href="../summary.html"><span class="glyphicon glyphicon-th-large"></span> Summary</a></li>
+						<li><a href=""><span class="glyphicon glyphicon-save"></span> Export Graph</a></li>
+						<li><a href=""><span class="glyphicon glyphicon-question-sign"></span> More info</a></li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-9">
+					<img src="http://placehold.it/1200x1200/EE4000/EEEEEE&text=Graphs+or+Charts" alt="" class="img-responsive">
+				</div>
+				<div class="col-sm-3 chart-nav">
+					<h4 class="text-right">Leading Indicators</h4>
+					<ul class="nav nav-pills nav-stacked divider">
+
+						{% if page.active == "hazards-reported" %}
+	                      <li><a href="#"  class="active text-right">Hazards Reported</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/leading-indicators/hazards-reported.html" class="text-right">Hazards Reported</a></li>
+	                  	{% endif %}
+
+
+	                  	{% if page.active == "hazards-closed" %}
+	                      <li><a href="#"  class="active text-right">Hazards Closed</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/leading-indicators/hazards-closed.html" class="text-right">Hazards Closed</a></li>
+	                  	{% endif %}
+
+
+	                  	{% if page.active == "near-hits-reported" %}
+	                      <li><a href="#"  class="active text-right">Near-Hits Reported</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/leading-indicators/near-hits-reported.html" class="text-right">Near-Hits Reported</a></li>
+	                  	{% endif %}
+
+
+	                  	{% if page.active == "whs-corrective-actions" %}
+	                      <li><a href="#"  class="active text-right">WHS Corrective Actions</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/leading-indicators/whs-corrective-actions.html" class="text-right">WHS Corrective Actions</a></li>
+	                  	{% endif %}
+
+
+	                  	{% if page.active == "hazard-to-incident-ratio" %}
+	                      <li><a href="#"  class="active text-right">Hazard to Incident Ratio</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/leading-indicators/hazard-to-incident-ratio.html" class="text-right">Hazard to Incident Ratio</a></li>
+	                  	{% endif %}
+
+
+	                  	{% if page.active == "whs-inspections" %}
+	                      <li><a href="#"  class="active text-right">WHS Inspections</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/leading-indicators/whs-inspections.html" class="text-right">WHS Inspections</a></li>
+	                  	{% endif %}
+
+
+					</ul>
+
+					<h4 class="text-right">Lagging Indicators</h4>
+					<ul class="nav nav-pills nav-stacked">
+						{% if page.active == "incidents-vs-claims-vs-ltis" %}
+	                      <li><a href="#"  class="active text-right">Incidents vs Claims vs LTIs</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/lagging-indicators/incidents-vs-claims-vs-ltis.html" class="text-right">Incidents vs Claims vs LTIs</a></li>
+	                  	{% endif %}
+
+
+	                  	{% if page.active == "ltifr-and-ltisr" %}
+	                      <li><a href="#"  class="active text-right">LTIFR & LTISR</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/lagging-indicators/ltifr-and-ltisr.html" class="text-right">LTIFR & LTISR</a></li>
+	                  	{% endif %}
+
+
+	                  	{% if page.active == "sprain-and-strain-injury-claims" %}
+	                      <li><a href="#"  class="active text-right">Sprain & Strain Injury Claims</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/lagging-indicators/sprain-and-strain-injury-claims.html" class="text-right">Sprain & Strain Injury Claims</a></li>
+	                  	{% endif %}
+
+
+	                  	{% if page.active == "falls-and-muscular-stress-claims" %}
+	                      <li><a href="#"  class="active text-right">Falls & Muscular Stress Claims</a></li>
+	                  	{% else %}
+	                      <li><a href="{{site.baseurl}}/dashboard/lagging-indicators/falls-and-muscular-stress-claims.html" class="text-right">Falls & Muscular Stress Claims</a></li>
+	                  	{% endif %}
+
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

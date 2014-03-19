@@ -1,0 +1,174 @@
+<div class="main">
+	<div id="dash-header">
+	<div class="container">
+		<nav class="navbar navbar-inverse" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Company Name <small>SafetyCircle Data Visualization</small></a>
+			</div>
+		
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right navbar">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li class="text-right"><a href="../dashboard/admin.html">Administration</a></li>
+							<li class="text-right"><a href="../logout.html">Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+	</div>
+</div>
+
+	<div id="dashboard">
+		<div class="container wrapper">
+			<div class="row chart-header">
+				<div class="col-sm-7">
+					<h2>{{ page.title }}</h2>
+				</div>
+				<div class="col-sm-5">
+					<ul class="actions-nav pull-right">
+						<li><a href="../dashboard/summary.html"><span class="glyphicon glyphicon-th-large"></span> Summary</a></li>
+						<!-- <li><a href=""><span class="glyphicon glyphicon-save"></span> Export Graph</a></li> -->
+						<li><a href=""><span class="glyphicon glyphicon-question-sign"></span> More info</a></li>
+
+					</ul>
+				</div>
+			</div>
+
+			<ul class="nav nav-tabs" id="adminTabs">
+			  <li class="active"><a href="#leading-indicators" data-toggle="tab">Leading Indicators</a></li>
+			  <li><a href="#lagging-indicators" data-toggle="tab">Lagging Indicators</a></li>
+			  <li><a href="#export-data" data-toggle="tab">Export Data</a></li>
+			  <li><a href="#account-settings" data-toggle="tab">Account Settings</a></li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+			  <div class="tab-pane fade in active" id="leading-indicators">
+			  	<div id="leading-indicators-data"></div>
+				<script>
+				$("#leading-indicators-data").kendoGrid({
+				  columns: [
+				    { field: "date", title: "Date" },
+				    { field: "hazardsOpen", title: "Hazards Open" },
+				    { field: "hazardsReported", title: "Hazards Reported" },
+				    { field: "hazardsClosed", title: "Hazards Closed" },
+				    { field: "nearHitsReported", title: "Near Hits Reported" },
+				    { field: "whsCA", title: "WHS CAs (Closed this month)" },
+				    { field: "owhsCA", title: "Outstanding WHS CAs (total end of month)" },
+				    { field: "avgCA", title: "Average CA Duration" },
+				    { field: "whsPerformed", title: "WHS Inspections Performed" },
+				    { field: "whsPlanned", title: "WHS Inspections Planned" },
+				    { command: ["edit", "destroy"] }, // displays the built-in "edit" and "destroy" commands
+				  ],
+				  editable: "inline",
+				  dataSource: [ {  } ]
+				});
+				</script>
+			  </div>
+
+
+			  <div class="tab-pane fade " id="lagging-indicators">
+			  	<div id="lagging-indicators-data"></div>
+				<script>
+				$("#lagging-indicators-data").kendoGrid({
+				  columns: [
+				    { field: "date", title: "Date" },
+				    { field: "claims", title: "Claims" },
+				    { field: "lti", title: "LTI" },
+				    { field: "incidents", title: "Incidents" },
+				    { field: "sprainStrain", title: "Sprain & Strain LTIs" },
+				    { field: "muscularStress", title: "Muscular Stress" },
+				    { field: "falls", title: "Falls LTIs" },
+				    { field: "sprainAvg", title: "Sprain & Strain Average Gross $/claim per month (rolling)" },
+				    { field: "muscularAvg", title: "Muscular Stress Average Gross $/claim per month (rolling)" },
+				    { field: "fallsAvg", title: "Falls LTIs  Average Gross $/claim per month (rolling)" },
+				    { field: "ltifr", title: "LTIFR" },
+				    { field: "ltisr", title: "LTISR" },
+				    { command: ["edit", "destroy"] }, // displays the built-in "edit" and "destroy" commands
+				  ],
+				  editable: "inline",
+				  dataSource: [ { } ]
+				});
+				</script>
+			  </div>
+
+
+			  <div class="tab-pane fade " id="export-data">
+			  	<div class="container">			  		
+			  		<div class="row text-center">
+			  			<div class="col-xs-12 center-block">
+			  				<a href="#" class="btn btn-primary btn-lg" role="button">Leading Indicators</a>
+			  				<a href="#" class="btn btn-primary btn-lg" role="button">Lagging Indicators</a>
+			  			</div>
+			  		</div>
+			  	</div>
+			  </div>
+
+
+			  <div class="tab-pane fade " id="account-settings">
+			  	<form role="form-horizontal">
+				  <div class="form-group col-sm-12">
+				    <label for="companyName" class="col-sm-2 text-right">Company Name</label>
+				    <div class="col-sm-4">
+				    	<input type="text" class="form-control" id="companyName" placeholder="Enter company name">
+				    </div>
+				  </div>
+
+				  <div class="clearfix"></div>
+
+				  <div class="form-group">
+				    <label for="streetNo" class="col-sm-2 text-right">Street No.</label>
+				    <div class="col-sm-4">
+				    	<input type="text" class="form-control" id="streetNo" placeholder="Street No">
+				    </div>
+				    <label for="streetName" class="col-sm-2 text-right">Street Name</label>
+				    <div class="col-sm-4">
+				    	<input type="text" class="form-control" id="streetName" placeholder="Street Name">
+				    </div>
+				    <label for="suburb" class="col-sm-2 text-right">Suburb</label>
+				    <div class="col-sm-4">
+				    	<input type="text" class="form-control" id="suburb" placeholder="Suburb">
+				    </div>
+				    <label for="postcode" class="col-sm-2 text-right">Postcode</label>
+				    <div class="col-sm-4">
+				    	<input type="text" class="form-control" id="postcode" placeholder="Postcode">
+				    </div>
+				  </div>
+
+				  <div class="form-group">
+				    <label for="contactPerson" class="col-sm-2 text-right">Contact Person</label>
+				    <div class="col-sm-4">
+				    	<input type="text" class="form-control" id="contactPerson" placeholder="Contact Person">
+				    </div>
+				     <label for="contactEmail" class="col-sm-2 text-right">Contact Email</label>
+				    <div class="col-sm-4">
+				    	<input type="text" class="form-control" id="contactEmail" placeholder="Contact Email">
+				    </div>
+				  </div>
+				  
+				  <div class="center-block text-center">
+				  	<button type="submit" class="btn btn-default">Save</button>
+				  	<button type="submit" class="btn btn-default">Cancel</button>
+				  </div>
+				</form>
+			  </div>
+			</div>
+			
+			
+
+
+
+		</div>
+	</div>
+</div>

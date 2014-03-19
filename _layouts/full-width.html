@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include head.html %}
+<link href="//vjs.zencdn.net/4.4/video-js.css" rel="stylesheet">
+</head>
+<body class="home-template portrait-is-hidden {% if page.sticky-footer %} sticky-footer {% endif %}" itemscope itemtype="http://schema.org/WebPage" >
+
+<span class="is-portrait-message text-center">
+  <p>This site is best viewed in landscape mode on your device. Please rotate your device now.</p>
+  <img src="{{site.baseurl}}/images/rotate-device-icon.png" alt="Rotate your device" class="img-responsive center-block">
+</span> 
+
+{% include header.html %}
+
+	{{ content }}
+
+{% include footer.html %}
+
+{% include scripts.html %}  
+</body>
+</html>
