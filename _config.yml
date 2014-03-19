@@ -150,7 +150,6 @@ prose:
           value: "true"
       - name: "published"
         field:
-          element: "button"
+          element: "checkbox"
           label: "Publish"
-          on: "Yes"
-          off: "No"
+          value: "true"
