@@ -9,7 +9,7 @@ share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
 # Turn on or off the fin animations in the header and footer
-animated_fins:	  true
+animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
@@ -104,7 +104,7 @@ prose:
       - name: "category"
         field:
           element: "select"
-	        label: "Which category does this belong to?"
+          label: "Select category"
           options:
             - name: "Photos"
               value: "photos"
@@ -112,15 +112,6 @@ prose:
               value: "videos"
             - name: "General"
               value: "general"
-      - name: "category"
-      	field:
-      	  element: "select"
-      	  label: "What kind of post is it?"
-      	  options:
-      	    - name: "Photo"
-      	      value: "photo"
-      	    - name: "Video"
-      	      value: "video"
       - name: "tags"
         field:
           element: "multiselect"
@@ -142,11 +133,9 @@ prose:
           value: "true"
       - name: "share"
         field:
-      	  element: "button"
-      	  label: "Social Sharing"
-      	  help: "Allow users to share post on social media"
-      	  on: "ON"
-      	  off: "OFF"
+          element: "checkbox"
+          label: "Enable sharing"
+          value: "true"
       - name: "published"
         field:
           element: "checkbox"
