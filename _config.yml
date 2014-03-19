@@ -102,12 +102,12 @@ prose:
           element: "hidden"
           value: "post"
       - name: "title"
-	field:
-	  element: "text"
-	  label: "Title"
-	  help: "This is the title of your article"
-	  placeholder: "My new article"
-	  type: "text"
+        field:
+          element: "text"
+          label: "Title"
+          help: "This is the title of your article"
+          placeholder: "My new article"
+          type: "text"
       - name: "category"
         field:
           element: "select"
