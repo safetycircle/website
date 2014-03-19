@@ -126,6 +126,7 @@ prose:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
+          alterable: "true"
           options:
             - name: "Sample post"
               value: "sample post"
