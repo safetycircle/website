@@ -121,7 +121,7 @@ active: blog
 	                {% if post.video %}
 	        		{% assign video_embed = post.video | remove:'http://www.youtube.com/watch?v=' %}
                     <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
-                    <p>{{ post.content | strip_html | truncatewords:50 }}&hellip;</p>
+		    <p>{{ post.content | strip_html | truncatewords:50 }}</p>
                     {% else %}
 	                <p>{{ post.excerpt }}</p>
 	                {% endif %}
@@ -157,7 +157,7 @@ active: blog
 	                    {% if post.photo %}<figure><a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseurl}}/images/{{ post.photo }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% else %}<figure><a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseurl}}/images/{{ post.image.feature }}" alt="{{ post.title }}" itemprop="image"></a></figure>{% endif %}
 	                </header>
 	                <div class="post-body bordered-bottom">
-	                    <p>{{ post.content | strip_html | truncatewords:50 }}&hellip;</p>
+			    <p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	                    {% if post.description %}
 		                <a href="{{site.baseurl}}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
 		                    <i class="icon-link"></i> read more...
@@ -190,8 +190,8 @@ active: blog
 	                </header>
 	                <div class="post-body bordered-bottom">
 	                {% assign excerptsize = post.excerpt | number_of_words %}
-	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p>{{ post.excerpt | strip_html }}</p>&hellip;{% else %}
-	                    <p>{{ post.content | strip_html | truncatewords:50 }}&hellip;</p>{% endif %}
+			{% if excerptsize <= 100 and excerptsize >= 50 %}<p>{{ post.excerpt | strip_html }}</p>{% else %}
+			    <p>{{ post.content | strip_html | truncatewords:50 }}</p>{% endif %}
 	                    {% if post.description %}
 		                <a href="{{site.baseurl}}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
 		                    <i class="icon-link"></i> read more...
@@ -655,7 +655,7 @@ active: blog
 	                {% if post.video %}
 	        		{% assign video_embed = post.video | remove:'http://www.youtube.com/watch?v=' %}
                     <p><iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe></p>
-                    <p>{{ post.content | strip_html | truncatewords:50 }}&hellip;</p>
+		    <p>{{ post.content | strip_html | truncatewords:50 }}</p>
                     {% else %}
 	                <p>{{ post.excerpt }}</p>
 	                {% endif %}
@@ -691,7 +691,7 @@ active: blog
 	                    </div>
 	                </header>
 	                <div class="post-body bordered-bottom">
-	                    <p>{{ post.content | strip_html | truncatewords:50 }}&hellip;</p>
+			    <p>{{ post.content | strip_html | truncatewords:50 }}</p>
 	                    {% if post.description %}
 		                <a href="{{site.baseurl}}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
 		                    <i class="icon-link"></i> read more...
@@ -724,8 +724,8 @@ active: blog
 	                </header>
 	                <div class="post-body bordered-bottom">
 	                {% assign excerptsize = post.excerpt | number_of_words %}
-	                {% if excerptsize <= 100 and excerptsize >= 50 %}<p>{{ post.excerpt | strip_html }}</p>&hellip;{% else %}
-	                    <p>{{ post.content | strip_html | truncatewords:50 }}&hellip;</p>{% endif %}
+			{% if excerptsize <= 100 and excerptsize >= 50 %}<p>{{ post.excerpt | strip_html }}</p>{% else %}
+			    <p>{{ post.content | strip_html | truncatewords:50 }}</p>{% endif %}
 	                    {% if post.description %}
 		                <a href="{{site.baseurl}}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
 		                    <i class="icon-link"></i> read more...
