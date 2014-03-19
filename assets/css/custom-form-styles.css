@@ -8,7 +8,7 @@
 
 - - - - - - - - - - - - - - - - - - - - - */
 
-textarea.form-control, input.form-control  {
+textarea.textarea, input.text {
 	width: 100%;
 	padding: 6px 12px;
 	font-size: 14px;
@@ -26,11 +26,11 @@ textarea.form-control, input.form-control  {
 	box-sizing: border-box;
 }
 
-input.tel {
+input[type=tel] {
 	width: 80%;
 }
 
-input.btn-primary {
+input.btTxt  {
 	margin-bottom: 0;
 	font-weight: normal;
 	text-align: center;
