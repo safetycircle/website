@@ -49,14 +49,10 @@ links:
     url: /
     external: false
     icon: home
-  - title: <i class="icon-book"></i> Documentation
-    url: /documentation
   - title: Categories
     url: /categories
   - title: Tags
     url: /tags
-  - title: Faysal who?
-    url: /hossain-mohd-faysal
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Australia/Tasmania
@@ -104,7 +100,7 @@ prose:
       - name: "category"
         field:
           element: "select"
-          label: "Select category"
+	  label: "Which category does this belong to?"
           options:
             - name: "Photos"
               value: "photos"
@@ -112,6 +108,15 @@ prose:
               value: "videos"
             - name: "General"
               value: "general"
+      - name: "category"
+	field:
+	  element: "select"
+	  label: "What kind of post is it?"
+	  options:
+	    - name: "Photo"
+	      value: "photo"
+	    - name: "Video"
+	      value: "video"
       - name: "tags"
         field:
           element: "multiselect"
@@ -133,9 +138,11 @@ prose:
           value: "true"
       - name: "share"
         field:
-          element: "checkbox"
-          label: "Enable sharing"
-          value: "true"
+	  element: "button"
+	  label: "Social Sharing"
+	  help: "Allow users to share post on social media"
+	  on: "ON"
+	  off: "OFF"
       - name: "published"
         field:
           element: "checkbox"
