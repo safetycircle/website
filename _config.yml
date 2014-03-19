@@ -138,11 +138,11 @@ prose:
           value: "true"
       - name: "share"
         field:
-	  element: "button"
-	  label: "Social Sharing"
-	  help: "Allow users to share post on social media"
-	  on: "ON"
-	  off: "OFF"
+      	  element: "button"
+      	  label: "Social Sharing"
+      	  help: "Allow users to share post on social media"
+      	  on: "ON"
+      	  off: "OFF"
       - name: "published"
         field:
           element: "checkbox"
