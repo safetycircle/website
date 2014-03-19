@@ -16,6 +16,10 @@ body {
 	border-bottom: none;
 }
 
+#form4 > ul > li.buttons > div > a {
+	opacity: 0 !important;
+}
+
 .wufoo .info h2 {
 	font-size: 26px;
 	color: #1a1a1a;
@@ -69,6 +73,17 @@ input.btTxt  {
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
+	-webkit-transition: background-color .15s ease-in-out;
+	-moz-transition: background-color .15s ease-in-out;
+	-ms-transition: background-color .15s ease-in-out;
+	-o-transition: background-color .15s ease-in-out;
+	transition: background-color .15s ease-in-out;
+}
+
+input.btTxt:hover {
+	color: #ffffff;
+	background-color: #5daf1b;
+	border-color: #488715;
 }
 
 form li.buttons input {
