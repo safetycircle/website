@@ -8,20 +8,20 @@
 
 - - - - - - - - - - - - - - - - - - - - - */
 .wufoo .info {
-
+	text-align: center;
+	border-bottom: none;
 }
 
 .wufoo .info h2 {
-	font-size: 180%;
+	font-size: 26px;
 	color: #1a1a1a;
-	font-family: "museo-sans-rounded", Lucida Grande, Gill Sans, Arial, sans-serif;
-	margin-top: 49px;
+	margin-top: 80px;
 	line-height: 1.4;
 }
 
 .wufoo .info div {
-	font-size: 14px;
-	font-family: "museo-sans-rounded", Lucida Grande, Gill Sans, Arial, sans-serif;
+	font-size: 16px;
+	color: #999999;
 }
 
 .wufoo textarea.textarea, .wufoo input.text {
