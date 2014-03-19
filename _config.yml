@@ -100,7 +100,7 @@ prose:
       - name: "category"
         field:
           element: "select"
-	  label: "Which category does this belong to?"
+	        label: "Which category does this belong to?"
           options:
             - name: "Photos"
               value: "photos"
@@ -109,14 +109,14 @@ prose:
             - name: "General"
               value: "general"
       - name: "category"
-	field:
-	  element: "select"
-	  label: "What kind of post is it?"
-	  options:
-	    - name: "Photo"
-	      value: "photo"
-	    - name: "Video"
-	      value: "video"
+      	field:
+      	  element: "select"
+      	  label: "What kind of post is it?"
+      	  options:
+      	    - name: "Photo"
+      	      value: "photo"
+      	    - name: "Video"
+      	      value: "video"
       - name: "tags"
         field:
           element: "multiselect"
