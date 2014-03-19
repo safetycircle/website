@@ -7,8 +7,22 @@
  Last Updated : 19/03/2014
 
 - - - - - - - - - - - - - - - - - - - - - */
+.wufoo .info {
 
+}
 
+.wufoo .info h2 {
+	font-size: 180%;
+	color: #1a1a1a;
+	font-family: "museo-sans-rounded", Lucida Grande, Gill Sans, Arial, sans-serif;
+	margin-top: 49px;
+	line-height: 1.4;
+}
+
+.wufoo .info div {
+	font-size: 14px;
+	font-family: "museo-sans-rounded", Lucida Grande, Gill Sans, Arial, sans-serif;
+}
 
 .wufoo textarea.textarea, .wufoo input.text {
 	width: 100%;
@@ -62,5 +76,5 @@ form li.buttons input {
 }
 
 .wufoo li {
- width: 100%;
+ width: 98%;
 }
