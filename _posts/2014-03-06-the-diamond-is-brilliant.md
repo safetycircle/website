@@ -15,7 +15,7 @@ The cultural transformation HCC was looking for included supporting HCC leaders 
 
 Working with Human Resources and Divisional leaders we customised the SafetyCircle “Diamond” [a one page summary of disciplinary processes and positive recognition approaches] – so it mirrored and simplified the required HCC process.
 <figure>
-	<a href="{{site.baseurl}}/images/the-diamond-large.jpg"><img src="{{site.baseurl}}/images/the-diamond.jpg"></a>
+	<img src="{{site.baseurl}}/images/the-diamond.jpg">
 </figure>
  
 The “Diamond” approach is then explained and practiced in one of the SafetyCircle Leadership Development Program sessions called “Draw the Line”. As committed SafetyCirclers know, ‘the line’ is the choice-boundary between acceptable and unacceptable behaviour/risk/controls.
