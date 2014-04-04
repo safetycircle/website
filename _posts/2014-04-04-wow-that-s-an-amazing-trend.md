@@ -19,10 +19,12 @@ IPM Safety first began working with FT in 1998 on a variety of injury management
 
 ![wow-thats-a-trend.jpg](/images/wow-thats-a-trend.jpg)
 
-
 It's a complete credit to the strength of the leadership and workforce culture at FT that during such a turbulent period they have managed to keep themselves and each other from many serious injuries. In our experience, when the winds of change and media frenzy occurs such as FT has encountered in the past 10 years, then the workforce tends to fall apart, physically and mentally. Workers Compensation claims and lost time injuries usually rise significantly through such periods.
 
 With a clear commitment to the welfare of FT's people (and leaving aside environmental issues for people's sake), IPM Safety, led by Specialist WHS Consultant Michael Roberts committed to assisting the FT workforce to "stay safe and well" through employing the SafetyCircle principles; focusing on prevention, building a strong "speak-up" culture and situational awareness.
+
+![forestry-worker.png](/images/forestry-worker.png)
+
 
 During our 2011 UTAS/Enterprise Connect Researcher in Business Project, assessing the WHS Culture of 7 SafetyCircle organisations, Forestry Tasmania showed the strongest WHS Culture of all the organisations we assessed. And most remarkably, FT's WHS culture was measured as the strongest in all 6 cultural factors. For more about SafetyCircle's unique WHS Cultural Survey process and product please contact us.
 
