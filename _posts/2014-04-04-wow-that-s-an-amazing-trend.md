@@ -17,6 +17,9 @@ Forestry Tasmania's WHS and Workers Compensation manager Kiran Mudaliar recently
 
 IPM Safety first began working with FT in 1998 on a variety of injury management and injury prevention projects. FT was an early adopter of the SafetyCircle and has been committed to it since 2008. From senior management training in WHS responsibilities, to training a team of Incident Investigators and several Safety Committees, IPM Safety's consultants have partnered FT through rough times. Twice since 2008/9 we have run statewide SafetyCircle refreshers with all staff and inducted all new staff to the SafetyCircle. The graph shows a falling LTIFR; that is, the Lost Time Injury Frequency Rate - the number of lost time injuries suffered per million hours of work; this is a frequent industrial WHS performance indicator used internationally. It shows a remarkable trend during a time when the entire workforce of Forestry Tasmania has encountered an incredible range of internal and external challenges.
 
+![wow-thats-a-trend.jpg](/images/wow-thats-a-trend.jpg)
+
+
 It's a complete credit to the strength of the leadership and workforce culture at FT that during such a turbulent period they have managed to keep themselves and each other from many serious injuries. In our experience, when the winds of change and media frenzy occurs such as FT has encountered in the past 10 years, then the workforce tends to fall apart, physically and mentally. Workers Compensation claims and lost time injuries usually rise significantly through such periods.
 
 With a clear commitment to the welfare of FT's people (and leaving aside environmental issues for people's sake), IPM Safety, led by Specialist WHS Consultant Michael Roberts committed to assisting the FT workforce to "stay safe and well" through employing the SafetyCircle principles; focusing on prevention, building a strong "speak-up" culture and situational awareness.
