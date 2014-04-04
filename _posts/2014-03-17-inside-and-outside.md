@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "Inside and Outside the SafetyCircle"
-description: "Wonderful new image of the Inside and Outside the SafetyCircle."
+title: Inside and Outside the SafetyCircle
+description: Wonderful new image of the Inside and Outside the SafetyCircle.
 type: photo
 image: 
-  feature: inside-and-outside.png
+  feature: "inside-and-outside.png"
 category: photos
-tags: [safetycircle]
+tags: 
+  - safetycircle
 comments: true
 share: true
+published: true
 ---
 
-During the construction of the SafetyCircle web pages our web designer Rami Yahya devised this wonderful new image of the “Inside and Outside” the SafetyCircle – for those who know how the SafetyCircle sessions go this looks a bit different than how we draw the distinctions of the SafetyCircle – but all the words and intent is the same and we love it – thanks so much Rami.
+During the construction of the SafetyCircle web pages our web designer Rami Yahya devised this wonderful new image of “Inside and Outside” the SafetyCircle – for those who know how the SafetyCircle sessions go, this looks a bit different than how we draw the distinctions of the SafetyCircle – but all the words and intent is the same and we love it – thanks so much Rami.
 
 <figure>
 	<a href="{{site.baseurl}}/images/inside-and-outside.png"><img src="{{site.baseurl}}/images/inside-and-outside.png"></a>
