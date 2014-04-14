@@ -22,7 +22,7 @@ We found that many of our clients needed assistance to track and report on their
 
 So we have developed an online “Dashboard” that SafetyCircle clients can, for a modest set-up and monthly fee, upload their WHS information to and then view it securely (via a unique login) and export well-designed and information rich graphs for including in all sorts of reporting or visual displays. 
 
-This powerful new tool enables you to track how your WHS goals and efforts are lining up with your results and then adjust your efforts and strategies accordingly. Check out the <a href="http://safetycircle.azurewebsites.net/">sample dashboard</a> and see for yourself. We can add and subtract graphs to suit your needs.
+This powerful new tool enables you to track how your WHS goals and efforts are lining up with your results and then adjust your efforts and strategies accordingly. Check out the <a href="http://safety-circle.azurewebsites.net/">sample dashboard</a> and see for yourself. We can add and subtract graphs to suit your needs.
 
 <figure class="third">
 	<a href="{{site.baseurl}}/images/gallery1/picture-6.jpg"><img src="{{site.baseurl}}/images/gallery1/picture-6.jpg"></a>
