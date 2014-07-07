@@ -26,11 +26,11 @@ a > img:hover {
 }
 
 a, .btn {
-  -webkit-transition: background-color .15s ease-in-out;
-  -moz-transition: background-color .15s ease-in-out;
-  -ms-transition: background-color .15s ease-in-out;
-  -o-transition: background-color .15s ease-in-out;
-  transition: background-color .15s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -ms-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
 }
 
 
@@ -628,13 +628,18 @@ label {
 
   .close-video-modal {
     position: absolute;
-    top: -3px;
+    top: 15px;
     right: -1px;
     z-index: 5;
     color: white;
     font-size: 26px;
     cursor: pointer;
   }
+
+    a.close-video-modal:hover {
+      color: gray;
+
+    } 
 
   /* ===============KendoUI Common Styles=============== */
   .add-record {

@@ -1,40 +1,43 @@
 jQuery(document).ready(function($) {
 
     $('#adminTabs a').click(function(e) {
-        e.preventDefault()
-        $(this).tab('show')
-    })
+        e.preventDefault();
+        $(this).tab('show');
+    });
 
-  //   var videoModal = $('#video-modal'),
-		// videoSource = $('#video-container iframe');
+    if ($('#video-modal').length > 0) {
 
-  //   $('a.video-modal-trigger').on('click', function (e) {
+        var videoModal = $('#video-modal'),
+            videoSource = $('#video-container iframe');
 
-  //       // Load in video source dynamically 
-  //       var src = $(this).attr('data-src');
+        $('a.video-modal-trigger').on('click', function(e) {
 
-  //       videoSource.attr({
-  //           'src': src
-  //       });
+            // Load in video source dynamically 
+            var src = $(this).attr('data-src');
 
-  //       // Trigger modal window
-  //       videoModal.modal();
+            videoSource.attr({
+                'src': src
+            });
 
-  //       e.preventDefault();
-  //   });
+            // Trigger modal window
+            videoModal.modal();
 
-  //   $('a.close-video-modal').on('click', function (e) {
-  //       var videoContainer = $('#video-container');
+            e.preventDefault();
+        });
 
-  //       // Hide modal window
-  //       videoModal.modal('hide');
+        $('a.close-video-modal').on('click', function(e) {
+            var videoContainer = $('#video-container');
 
-  //       // Remove video from Modal
-  //       videoSource.attr({
-		// 	'src': ''
-  //       });
+            // Hide modal window
+            videoModal.modal('hide');
 
-  //       e.preventDefault();
-  //   });
+            // Remove video from Modal
+            videoSource.attr({
+                'src': ''
+            });
+
+            e.preventDefault();
+        });
+    }
 
 });
