@@ -61,7 +61,7 @@ dt {
   font-weight: 500; }
 
 dd {
-  color: #a2a2a2; }
+  color: #636363; }
 
 blockquote {
   padding: 5px 15px;
@@ -280,7 +280,13 @@ h2, .h2, h2 > a {
     font-size: 21px;
     font-weight: 500;
     color: #a2a2a2;
-    text-decoration: none; }
+    text-decoration: none; 
+      -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  }
     #in-depth-nav a:hover, #in-depth-nav a.current {
       color: #70d220; }
     #in-depth-nav a.current {
@@ -303,15 +309,35 @@ h2, .h2, h2 > a {
 /* ===============Client Logos Styles=============== */
 #clients {
   background-color: #ffffff;
-  border-bottom: 5px solid #70d220;
-  padding: 20px 0; }
-  @media only screen and (max-width: 768px) {
+  padding: 30px 0; 
+  border-top: 3px solid #EEE;}
+/*  @media only screen and (max-width: 768px) {
     #clients .client-list:nth-child(-n+3) {
-      margin-bottom: 20px; } }
+      margin-bottom: 20px; } }*/
+.client-list li {
+  list-style: none;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 10%;
+  margin-left: 25px;
+  margin-right: 25px;
+  vertical-align: middle;
+
+}
+
+.client-list a > img {
+  opacity: 0.55;
+}
+
+.client-list a > img:hover {
+  opacity: 1;
+}
 
 /* ===============Client Testimonials=============== */
 #client-testimonials {
-  padding: 20px 0; }
+  padding: 20px 0;
+  background: #fcfcfc; }
   #client-testimonials h3 {
     margin-bottom: 35px;
     margin-top: 15px; }
@@ -329,16 +355,28 @@ h2, .h2, h2 > a {
     #footer .footer-nav a.current {
       color: #70d220; }
   #footer ul {
-    padding-left: 0px; }
+    padding-left: 0px; 
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-top: 12px;}
     #footer ul li {
       list-style: none;
       float: left;
-      margin-right: 40px; }
+      margin-right: 40px; 
+      margin-bottom: 0;}
       #footer ul li:last-child {
         margin-right: 0; }
 
 #footer .footer-nav a:hover {
   border-bottom: 2px solid #e6e6e6;
+}
+.footer-logo {
+  display: inline-block;
+  width: 36%;
+}
+
+.footer-logo img {
+  max-width: 100%;
 }
 
 /* ===============Slider Styles Override=============== */
@@ -434,7 +472,7 @@ h2, .h2, h2 > a {
   color: white;
 }
 .sign-in-splash .royalSliderAlt {
-  box-shadow: 7px 6px 11px 0px rgba(0,0,0,0.4);
+  box-shadow: 7px 6px 11px rgba(0,0,0,0.4);
 }
 
 .sign-in-splash p > a {
