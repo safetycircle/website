@@ -309,8 +309,13 @@ h2, .h2, h2 > a {
 /* ===============Client Logos Styles=============== */
 #clients {
   background-color: #ffffff;
-  padding: 30px 0; 
+  padding: 0; 
   border-top: 3px solid #EEE;}
+
+  #clients h4 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
 /*  @media only screen and (max-width: 768px) {
     #clients .client-list:nth-child(-n+3) {
       margin-bottom: 20px; } }*/
@@ -346,12 +351,13 @@ h2, .h2, h2 > a {
 
 /* ===============Footer Styles=============== */
 #footer {
-  background-color: #2a2a2a;
+  background-color: #000;
   border-top: 2px solid #e6e6e6;
   padding: 30px 0; }
   #footer .footer-nav a {
     color: #e6e6e6;
-    text-transform: uppercase; }
+    text-transform: uppercase; 
+    font-size: 14px;}
     #footer .footer-nav a.current {
       color: #70d220; }
   #footer ul {
@@ -372,11 +378,15 @@ h2, .h2, h2 > a {
 }
 .footer-logo {
   display: inline-block;
-  width: 36%;
+  width: 70%;
+  color: #eee;
+  font-size: 10px;
+  line-height: 1;
 }
 
 .footer-logo img {
   max-width: 100%;
+  opacity: 1;
 }
 
 /* ===============Slider Styles Override=============== */
