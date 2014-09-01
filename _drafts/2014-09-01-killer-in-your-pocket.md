@@ -13,6 +13,8 @@ The smarter the phone, the bigger the distraction. It's designed to grab your ey
 
 On work sites there are times when we MUST have "no phones on" - does your site ever have that conversation and agreements or rules? If so, respect it and uphold it - it could save your life and maybe someone else's. If not, how about identifying when the highest risk tasks are and bringing it up at the next toolbox or work group meeting? Have it out with people who are just SO distracted that they're a menace; to safety, to team work, to themselves? Or is it an unwritten code that everyone gets away with casual phone use as long as the job gets done and our luck holds? This is one Work Health and Safety issue that needs us all to bring it back into balance. On our work sites AND on our roads. It's even more dangerous letting your phone get the better of you when you're driving. Get a grip, it's your life and you have the most to lose if you make the kind of dumb choice this 22 year old in USA made - texting while driving he ran off the road, rolled the vehicle and got killed - here's a photo of the text he was writing as he lost focus on the road - worth dying for? No way. It's a dumb way to die. Get control of your mobile phone. 
 
+> We loved with a love that was more than love
+
 
 
 For a few graphic reminders of just how dangerous it is, check out this VW road safety commercial: https://www.youtube.com/watch?v=JHixeIr_6BM
