@@ -757,3 +757,32 @@ label {
     display: block;
     text-align: center;
     padding: 20% 0; } }
+
+
+/* ===============Follow Button=============== */
+.follow-btn {
+  position: fixed;
+  background: orangered;
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-top: none;
+  color: white !important;
+  display: block;
+  white-space: nowrap;
+  text-decoration: none !important;
+  z-index: 9998;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 5px 5px;
+  left: 100%;
+  top: 40%;
+  -webkit-transform-origin: top left;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: top left;
+  -ms-transform: rotate(90deg);
+  -ms-transform-origin: top left;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
