@@ -17,7 +17,7 @@ And the smarter the phone, the bigger the distraction. Smart phones are designed
 
 But if we don't control our technology, then it controls us - often putting us at risk. Too many people have already died, or ended up quadruplegic, or badly hurt because someone lost focus when their phone went off with a text, email, call or Facebook chime. 
 
-### > Your phone is a potential killer hiding in your pocket, you carry it around, and it claws for your attention, day in day out. Mine too - that's how I know.
+### > _"Your phone is a potential killer hiding in your pocket, you carry it around, and it claws for your attention, day in day out. Mine too - that's how I know."_
 
 On work sites there are times when we MUST have "no phones". Does your work group ever have that conversation and agreements or rules? Does your supervisor ever confront this real-life safety issue? If so, respect it and uphold it - it could save your life and maybe someone else's. If not, how about identifying when the highest risk tasks are and bringing it up at the next toolbox or work group meeting? 
 
@@ -26,8 +26,7 @@ In the SafetyCircle we make agreements, and give each other permission to interr
 But what often happens when some-one sees a phone-user who is SO distracted that they're a menace; to their own safety, to team work, or to others' safety? Too often we shrug and 'tut tut' knowlingly. In some workplaces and in public there seems to be an unwritten code that everyone gets away with casual phone use as long as the job gets done and our luck holds. 
 
 This is one Work Health and Safety issue that needs us all to bring it back into balance. On our work sites AND on our roads. It's even more dangerous letting your phone get the better of you when you're driving. Get a grip, it's your life and you have the most to lose if you make the kind of dumb choice this 22 year old in USA made - texting while driving he ran off the road, rolled the vehicle and got killed - here's a photo of the text he was writing as he lost focus on the road...
-
-[mobile phone text message: hey man I'll tw](/_drafts/Mobile Phone - texting while driving.jpg)
+![texting while driving: "hey man had to go out I'll tw..."](/_drafts/Mobile Phone - texting while driving - small.png)
 
 Was it worth dying for? No way. It's a dumb way to die. Get control of your mobile phone. 
 
