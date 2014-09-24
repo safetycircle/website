@@ -22,6 +22,7 @@ tags:
 Got a mobile phone? For interest's sake, estimate how many times a day it succeeds in grabbing your attention? 10? 20? 50? For me, I'd say it's 30-40 times a day.
 
 ![Eyes off the road - on the phone](/_drafts/Eyes off the road - on the phone.jpg)
+
 It's so frequent for many of us that it's automatic and uncontrolled. That attention we give the phone is the same attention needed for our eyes to be on the road, or that oncoming truck when we're crossing the road, or on the swinging load or where our feet are about to step. 
 
 And the smarter the phone, the bigger the distraction. Smart phones are designed to attract our eyes, ears and mind. And we set them up specially to interrupt us with special tones, vibrations and flashes! Of course mobile technology is incredibly useful, that's why we become so attached and attuned. It can save our lives as well as our time. 
