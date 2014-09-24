@@ -2,9 +2,21 @@
 layout: post
 published: true
 title: Killer in your pocket
-category: photos
+category: general
 comments: true
 share: true
+tags: 
+  - general
+  - safety
+  - mobile phone safety
+  - cell phone safety
+  - distraction
+  - driving
+  - driver safety
+  - OHS
+  - WHS
+  - "OH&S"
+  - OSH
 ---
 
 Got a mobile phone? For interest's sake, estimate how many times a day it succeeds in grabbing your attention? 10? 20? 50? For me, I'd say it's 30-40 times a day.
@@ -36,4 +48,4 @@ Or watch this YouTube clip - it's from an English construction site where a fata
 
 Plus, if your wife or girlfriend or daughter are stuck in bad phone habits while driving... watch this British road safety ad with her (warning! it's not for the faint hearted). The link is:  http://m.youtube.com/watch?list=WL&v=R0LCmStIw9E
 
-Lastly, download the SafetyCircle Guide to safe mobile phone habits: Don't Let Your Phone Wreck Your Life.
+Lastly, download the SafetyCircle Guide to safe mobile phone habits: Don't Let Your Phone Wreck Your Life. 
