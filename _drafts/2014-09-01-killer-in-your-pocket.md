@@ -28,7 +28,6 @@ It's so frequent for many of us that it's automatic and uncontrolled. That atten
 And the smarter the phone, the bigger the distraction. Smart phones are designed to attract our eyes, ears and mind. And we set them up specially to interrupt us with special tones, vibrations and flashes! Of course mobile technology is incredibly useful, that's why we become so attached and attuned. It can save our lives as well as our time. 
 
 But if we don't control our technology, then it controls us - often putting us at risk. Too many people have already died, or ended up quadruplegic, or badly hurt because someone lost focus when their phone went off with a text, email, call or Facebook chime. 
-
 ### _"Your phone is a potential killer hiding in your pocket, you carry it around, and it claws for your attention, day in day out. Mine too - that's how I know."_
 
 On work sites there are times when we MUST have "no phones". Does your work group ever have that conversation and make agreements or rules? Does your supervisor ever confront this real-life safety issue? If so, respect it and uphold it - keeping that agreement could save your life and maybe someone else's. If not, how about identifying when the highest risk tasks are and bringing it up at the next toolbox or work group meeting? 
