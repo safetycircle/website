@@ -48,4 +48,4 @@ Or watch this YouTube clip - it's from an English construction site where a fata
 
 Plus, if your wife or girlfriend or daughter are stuck in bad phone habits while driving... watch this British road safety ad with her (warning! it's not for the faint hearted). The link is:  http://m.youtube.com/watch?list=WL&v=R0LCmStIw9E
 
-Lastly, download the SafetyCircle Guide to safe mobile phone habits: Don't Let Your Phone Wreck Your Life. 
+Lastly, download the SafetyCircle Guide (PDF) to safe mobile phone habits: Don't Let Your Phone Wreck Your Life or email me to request it: michaelroberts@ipmsafety.com.au
