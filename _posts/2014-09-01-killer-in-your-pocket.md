@@ -38,7 +38,8 @@ But what often happens when some-one sees a phone-user who is SO distracted that
 
 This is one Work Health and Safety issue that needs us all to bring it back into balance. On our work sites AND on our roads. It's even more dangerous letting your phone get the better of you when you're driving. Get a grip, it's your life and you have the most to lose. Please stop making the kind of dumb choice this 22 year old in USA made - texting while driving he ran off the road, rolled the vehicle and got killed - here's a photo of the text he was writing as he lost focus on the road...
 
-![texting while driving: "hey man had to go out I'll tw..."](/_drafts/Mobile Phone - texting while driving - small.png)
+![Mobile Phone - texting while driving - small.png](/images/Mobile Phone - texting while driving - small.png)
+
 
 Was it worth dying for? No way. It's a dumb way to die. Get control of your mobile phone. 
 
