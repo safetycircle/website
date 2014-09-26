@@ -40,7 +40,6 @@ This is one Work Health and Safety issue that needs us all to bring it back into
 
 ![Mobile Phone - texting while driving - small.png](/images/Mobile Phone - texting while driving - small.png)
 
-
 Was it worth dying for? No way. It's a dumb way to die. Get control of your mobile phone. 
 
 For a brilliant reminder of just how fast and dangerous it is, check out this VW road safety commercial: https://www.youtube.com/watch?v=JHixeIr_6BM
