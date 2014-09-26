@@ -22,7 +22,6 @@ tags:
 Got a mobile phone? For interest's sake, estimate how many times a day it succeeds in grabbing your attention? 10? 20? 50? For me, I'd say it's 30-40 times a day.
 
 ![Eyes off the road - on the phone.jpg](/images/Eyes off the road - on the phone.jpg)
-
 It's so frequent for many of us that it's automatic and uncontrolled. That attention we give the phone is the same attention needed for our eyes to be on the road, or that oncoming truck when we're crossing the road, or on the swinging load or where our feet are about to step. 
 
 And the smarter the phone, the bigger the distraction. Smart phones are designed to attract our eyes, ears and mind. And we set them up specially to interrupt us with special tones, vibrations and flashes! Of course mobile technology is incredibly useful, that's why we become so attached and attuned. It can save our lives as well as our time. 
@@ -39,7 +38,6 @@ But what often happens when some-one sees a phone-user who is SO distracted that
 This is one Work Health and Safety issue that needs us all to bring it back into balance. On our work sites AND on our roads. It's even more dangerous letting your phone get the better of you when you're driving. Get a grip, it's your life and you have the most to lose. Please stop making the kind of dumb choice this 22 year old in USA made - texting while driving he ran off the road, rolled the vehicle and got killed - here's a photo of the text he was writing as he lost focus on the road...
 
 ![Mobile Phone - texting while driving - small.png](/images/Mobile Phone - texting while driving - small.png)
-
 Was it worth dying for? No way. It's a dumb way to die. Get control of your mobile phone. 
 
 For a brilliant reminder of just how fast and dangerous it is, check out this VW road safety commercial: https://www.youtube.com/watch?v=JHixeIr_6BM
