@@ -32,6 +32,11 @@
                   {% else %}
                       <li><a href="http://safetycircle.azurewebsites.net/">Dashboard</a></li>
                   {% endif %}
+		  {% if page.active == "resources" %}
+		      <li><a href="#"  class="current">Resources</a></li>
+		  {% else %}
+		      <li><a href="{{site.baseurl}}/resources.html">Resources</a></li>
+		  {% endif %}
                 </ul>
               </div>
           </div> 

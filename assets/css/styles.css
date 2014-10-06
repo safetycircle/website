@@ -84,9 +84,22 @@ h6, .h6 {
   margin-bottom: 8px;
 }
 
-p.desc {
+.desc {
   font-size: 14px;
   line-height: 1.4;
+}
+
+a.desc {
+  color: #4d9016;
+}
+
+.highlight-alt {
+  color: orangered;
+}
+
+.highlight-alt:hover {
+  color: orangered;
+  text-decoration: underline;
 }
 
 li {
@@ -209,16 +222,20 @@ h2, .h2, h2 > a {
 @media (min-width: 992px) {
   .navbar-sc {
     float: left; } }
+
 .navbar-sc li {
   list-style: none;
-  margin-right: 45px;
+  margin-right: 30px;
   display: inline-block; }
-  .navbar-sc li:last-child {
+
+.navbar-sc li:last-child {
     margin-right: 0; }
+
 .navbar-sc a {
   color: #2b2b2b;
-  font-size: 21px; }
-  .navbar-sc a.current {
+  font-size: 17px; }
+
+.navbar-sc a.current {
     color: #70d220; }
 
 /* ===============Featured Section=============== */
