@@ -12,6 +12,59 @@ magnific: true
       <p>Please use your device in landscape mode.</p>
     </span> -->
 
+    <div class="container page-separator">
+
+        <div class="col-xs-6 col-sm-4">
+            <h2 class="highlight-heading text-center">Free Webinar</h2>
+            <a href="{{site.baseurl}}/book-webinar.html" class="no-image-hover"><img src="{{site.baseurl}}/images/whs-culture-change-webinar.jpg" alt="Alt text" class="img-responsive video-thumbnail"/></a>
+            <h6>Shift Your Culture</h6>
+            <p>Free introductory webinar - Boost your SafetyCircle efforts with these 10 hot tips on culture change.</p>
+            <a href="{{site.baseurl}}/book-webinar.html" class="btn btn-rounded btn-block btn-callout "><span class="glyphicon glyphicon-pencil"></span> Register Now</a>
+        </div>
+
+        <div class="col-xs-6 col-sm-4">
+            <h2 class="highlight-heading text-center">Latest Post</h2>
+            
+            {% for post in site.posts limit:1 %}
+                <h4 class="text-center featured-post-title"><a href="{{site.baseurl}}{{ post.url }}" class="featured-post-title">{{ post.title }}</a></h4>
+
+                <div class="small-meta"><time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time> in 
+                    <span class="post-tags">
+                        {% for tag in post.categories %}<a href="{{site.baseurl}}/categories/index.html#{{ post.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>
+                        {% endfor %}
+                    </span>
+                </div>
+
+                <p>
+                    {{ post.content | strip_html | truncatewords:70 }}
+                </p> 
+                {% if post.description %}
+                    <a href="{{site.baseurl}}{{ post.url }}" data-toggle="tooltip" title="{{ post.description }}" class="more-link">
+                        <i class="icon-link"></i> read more...
+                    </a>
+                {% else %}
+                    <a href="{{site.baseurl}}{{ post.url }}" data-toggle="tooltip" title="Read more about {{ post.title }}" class="more-link">
+                        <i class="icon-link"></i> read more...
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="clearfix visible-xs"></div>
+
+        <div class="col-xs-12 col-sm-4">
+            <h2 class="highlight-heading text-center">Get Surveyed</h2>
+            <a href="{{site.baseurl}}/contact.html" class="no-image-hover"><img src="{{site.baseurl}}/images/survey-charts-graphs.jpg" alt="Get Surveyed" class="img-responsive video-thumbnail"/></a>
+            <h6>Get the SafetyCircle Survey</h6>
+            <p>SafetyCircle's survey and analysis gives you powerful insights and measures of your organisation's WHS Culture.</p>
+
+            <a href="{{site.baseurl}}/contact.html" class="btn btn-rounded btn-block btn-callout-alt "><span class="glyphicon glyphicon-pencil"></span> Get Surveyed</a>
+            <a href="{{site.baseurl}}/general/how-strong-is-your-safety-culture/" data-toggle="tooltip" title="Read more about SafetyCircle's survey" class="more-link more-link-alt">
+                <i class="icon-link"></i> read more...
+            </a>
+        </div>
+    </div>
+
 <div id="featured">
     <div class="container">
         <div class="row">
@@ -36,7 +89,6 @@ magnific: true
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
@@ -155,7 +207,7 @@ magnific: true
 </div>
 <!-- End In-Depth Content -->
 
-<div id="client-testimonials">
+<div id="client-testimonials" class="page-separator">
     <div class="container">
         <div class="row">
             <h3 class="text-center">What some participants have to say about SafetyCircle

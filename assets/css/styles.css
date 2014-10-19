@@ -179,6 +179,51 @@ h2, .h2, h2 > a {
   top: 3px;
 }
 
+.btn-rounded {
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 21px;
+  font-weight: 300;
+  border: none;
+  color: white; 
+  text-shadow: 1px 1px 1px #464646;
+}
+
+.btn-rounded:hover {
+  color: white;
+}
+
+.btn-block {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+/* ===============Home Page=============== */
+.section-title {
+  border-bottom: 4px solid #e0e0e0;
+  color: #353535;
+  padding-bottom: 5px;
+}
+
+.featured-post-title {
+  font-size: 28px;
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+
+.small-meta, .small-meta a {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.no-image-hover img {
+  opacity: 1;
+}
+
+.page-separator {
+  padding: 0 0 40px;
+}
 /* ===============Navigation=============== */
 #main-navigation {
   padding: 20px 0;
@@ -768,7 +813,7 @@ label {
   display: none; }
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
-  .portrait-is-hidden div,  .portrait-is-hidden footer {
+  .portrait-is-hidden div,  .portrait-is-hidden footer, .portrait-is-hidden .follow-btn {
     display: none; }
   .portrait-is-hidden .is-portrait-message {
     display: block;
