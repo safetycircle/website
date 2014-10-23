@@ -2,9 +2,19 @@
 layout: post
 published: true
 title: Anatomy of a Fatality – Part 1
-category: photos
+category: general
 comments: true
 share: true
+tags: 
+  - images
+  - general
+  - WHS
+  - Workplace Fatality
+  - "OH&S"
+  - Incident
+  - Investigation
+  - Safety Culture
+  - People
 ---
 
 > ## “We were running behind. We thought we had to push on regardless.”
