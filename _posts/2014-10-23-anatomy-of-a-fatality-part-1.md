@@ -14,4 +14,4 @@ It’s eerie. Statements like this come up all too often when investigators inte
 We, humans, fail to follow the instructions or procedures; fail to see the warning flags; fail to learn from incidents, near-misses and hazard reports; fail to listen and respond to genuine safety complaints.
 Any discussion of workplace safety must confront the notions of luck, complacency and personal choices. 21st century work health and safety focuses on “higher order controls” – these are equipment and system design issues; and they are critically important to a safe, efficient, modern organisation getting its job done. Equipment; the entire hardware of the organisation; and Systems; the ‘how’ we intend procedures to get done, are extremely dependent on People; that is, the ‘who’ we have doing the work.
 I have illustrated this dependency in a new diagram (see below). It conveys how I now see this E.S.P. relationship, from reviewing and investigating hundreds of workplace safety incidents.
-
+__
