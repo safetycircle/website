@@ -17,7 +17,7 @@ tags:
   - People
 ---
 
-> ## “We were running behind. We thought we had to push on regardless.”
+## _“We were running behind. We thought we had to push on regardless.”_
 
 It’s eerie. Statements like this come up all too often when investigators like me  interview co-workers at a fatal incident scene. As an incident investigator and safety culture consultant I get to see where and why organisations and humans fail – and pay the ultimate price. 
 
