@@ -32,7 +32,7 @@ But **EQUIPMENT**, the entire hardware of the organisation; and **SYSTEMS**; the
 
 I have illustrated this dependency in a new diagram (see below). It conveys how I now see this E.S.P. relationship, from reviewing and investigating hundreds of workplace safety incidents.
 
-
+![ESP diagram.jpg](/_posts/ESP diagram.jpg)
 
 You see, your organisation or work group can have the best possible equipment and facilities, they can have gold standard systems, but if your people aren’t ‘right’ you're riding your luck on safety. By the ‘right’ people, I mean people who stay ‘switched on’ when they need to be, or who accept coaching and correction rather than resisting or rejecting it. Workers and Supervisors don't have the 'right' mindset if they fail to listen and learn, fail to see and heed warning signs (actual and metaphoric). This is especially true for who we at SafetyCircle call ‘Leaders’ – your executives, managers, supervisors, team leaders and so on. If the Leaders are so focused on getting the job done that safety is peripheral, you’re riding for a fall; it's only a matter of time.
 
