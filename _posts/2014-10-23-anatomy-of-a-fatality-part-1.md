@@ -5,6 +5,9 @@ title: Anatomy of a Fatality – Part 1
 category: general
 comments: true
 share: true
+type: photo
+image: 
+  feature: ESP-diagram.jpg
 tags: 
   - images
   - general
@@ -22,7 +25,8 @@ tags:
 It’s eerie. Statements like this come up all too often when investigators like me  interview co-workers at a fatal incident scene. As an incident investigator and safety culture consultant I get to see where and why organisations and humans fail – and pay the ultimate price. 
 
 We, humans, fail to follow the instructions or procedures; fail to see the warning flags; fail to learn from incidents, near-misses and hazard reports; fail to listen and respond to genuine safety complaints. Here's a photo taken from an office window in Sydney, of a guy pushing his luck that day.
-![Standing on Rail.jpg](/_posts/Standing on Rail.jpg)
+
+![Standing on Rail.jpg](/images/Standing on Rail.jpg)
 
 Any discussion of workplace safety must confront the notions of **luck, complacency and personal choices**. These are human factors.
 
@@ -32,7 +36,7 @@ But **EQUIPMENT**, the entire hardware of the organisation is 'what' we use; and
 
 I have illustrated this dependency in a new diagram (see below). It conveys how I now see this E.S.P. relationship, from reviewing and investigating hundreds of workplace safety incidents.
 
-![ESP diagram.jpg](/_posts/ESP diagram.jpg)
+![ESP-diagram.jpg](/images/ESP-diagram.jpg)
 
 You see, your organisation or work group can have the best possible equipment and facilities, they can have gold standard systems, but if your people aren’t ‘right’ you're riding your luck on safety. By the ‘right’ people, I mean people who stay ‘switched on’ when they need to be, or who accept coaching and correction rather than resisting or rejecting it. Workers and Supervisors don't have the 'right' mindset if they fail to listen and learn, fail to see and heed warning signs (actual and metaphoric). This is especially true for who we at SafetyCircle call ‘Leaders’ – your executives, managers, supervisors, team leaders and so on. If the Leaders are so focused on getting the job done that safety is peripheral, you’re riding for a fall; it's only a matter of time.
 
