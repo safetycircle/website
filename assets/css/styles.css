@@ -224,6 +224,30 @@ h2, .h2, h2 > a {
 .page-separator {
   padding: 0 0 40px;
 }
+
+.feature-tile .video-thumbnail {
+  margin: 0 auto 15px;
+  max-height: 188px;
+}
+
+@media (min-width: 768px) {
+  .feature-tile .video-thumbnail {
+    max-height: 123px;
+  }
+}
+
+@media (min-width: 992px) {
+  .feature-tile .video-thumbnail {
+    max-height: 163px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .feature-tile .video-thumbnail {
+    max-height: 200px;
+  }
+}
+
 /* ===============Navigation=============== */
 #main-navigation {
   padding: 20px 0;
