@@ -2,9 +2,24 @@
 layout: post
 published: true
 title: Anatomy of a Fatality – Part 2
-category: photos
+category: general
 comments: true
 share: true
+tags: 
+  - general
+  - safety
+  - incident
+  - unsafe acts
+  - WHS
+  - OHS
+  - "OH&S"
+  - "WH&S"
+  - fatality
+  - workplace death
+  - construction
+  - excavator
+  - broken lifting sling
+  - lifting sling
 ---
 
 ## Understanding the "ESP" of Positive WHS
