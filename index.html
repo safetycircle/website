@@ -12,7 +12,7 @@ magnific: true
       <p>Please use your device in landscape mode.</p>
     </span> -->
 
-    <div class="container page-separator feature-tile">
+    <!-- <div class="container page-separator feature-tile">
 
         <div class="col-xs-6 col-sm-4">
             <h2 class="highlight-heading text-center">Free Webinar</h2>
@@ -33,12 +33,12 @@ magnific: true
 
                 <h6 class="text-center"><a href="{{site.baseurl}}{{ post.url }}" class="">{{ post.title }}</a></h6>
 
-               <!--  <div class="small-meta"><time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time> in 
+                <div class="small-meta"><time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time> in 
                     <span class="post-tags">
                         {% for tag in post.categories %}<a href="{{site.baseurl}}/categories/index.html#{{ post.categories | cgi_encode }}" data-toggle="tooltip" title="Other posts from the {{ tag | capitalize }} category" rel="tag">{{ tag | capitalize }}</a>
                         {% endfor %}
                     </span>
-                </div> -->
+                </div>
 
                 <p>
                     {{ post.content | strip_html | truncatewords:35 }}
@@ -68,7 +68,7 @@ magnific: true
                 <i class="icon-link"></i> read more...
             </a>
         </div>
-    </div>
+    </div> -->
 
 <div id="featured">
     <div class="container">
